@@ -5,7 +5,7 @@ An example workflow that uses [GitHub Actions](https://help.github.com/en/catego
 See this [technical blog post](https://www.weave.works/blog/gitops-with-github-actions-eks) which uses this code for full step-by-step instructions.
 
 ## Prerequisites
-
+test
 
 1. Create an EKS cluster, e.g. using [`eksctl create cluster`](https://eksctl.io/)
 2. Set up Flux on the cluster, e.g. using [this guide](https://docs.fluxcd.io/en/1.20.0/get-started). Note that you must set `--git-path` to point to where your manifests are. For example:
