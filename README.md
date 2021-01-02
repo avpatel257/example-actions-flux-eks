@@ -14,7 +14,7 @@ export GHOWNER=<github user or organization account where your fork lives>
 export GHREPO=example-actions-flux-eks
 
 kubectl create ns flux
-
+ 
 fluxctl install \
     --git-user=${GHUSER} \
     --git-email=${GHUSER}@users.noreply.github.com \
